@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Prashant_Headerlogo>
+            <version>0.1.0</version>
+        </Prashant_Headerlogo>
+    </modules>
+    <adminhtml>
+		<acl>
+			<resources>
+				<all>
+					<title>Allow Everything</title>
+				</all>
+				<admin>
+					<children>
+						<Prashant_Headerlogo>
+							<title>Headerlogo</title>
+							<sort_order>10</sort_order>
+						</Prashant_Headerlogo>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+    </adminhtml>   
+    <global>
+        <models>
+            <headerlogo>
+                <class>Prashant_Headerlogo_Model</class>
+            </headerlogo>
+        </models>
+		<blocks>
+            <page>
+                <rewrite>
+                    <html_header>Prashant_Headerlogo_Block_Html_Header</html_header>
+                </rewrite>
+            </page>
+        </blocks>
+		 <helpers>
+            <headerlogo>
+                <class>Prashant_Headerlogo_Helper</class>
+            </headerlogo>
+        </helpers>
+    </global>
+</config>

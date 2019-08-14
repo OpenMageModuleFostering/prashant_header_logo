@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>prashant_header_logo</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Admin can upload store logo from magento back-end easily.</summary>
+    <description>This extension provides the functionality for the admin to upload store logo. Admin can upload store logo from magento back-end at same place where default megento will use for the logo.</description>
+    <notes>First Release Version</notes>
+    <authors><author><name>Prashant Kumar</name><user>prashantkr</user><email>vicky.bgp@gmail.com</email></author></authors>
+    <date>2016-06-28</date>
+    <time>10:37:36</time>
+    <contents><target name="magecommunity"><dir name="Prashant"><dir name="Headerlogo"><dir name="Block"><dir name="Html"><file name="Header.php" hash="5d565da73eff1c14b0247d5f92c86901"/></dir></dir><dir name="Helper"><file name="Data.php" hash="c6a27189bf862febceb2425309022ecc"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Backend"><dir name="Image"><file name="Logo.php" hash="48a43b5b95d007dc65d56869cb59a91e"/></dir></dir></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="6935d5e4758764ba080c0c2d2ffb7165"/><file name="config.xml" hash="8c1be5eca26dfb5cd5f662cfb1a550d3"/><file name="system.xml" hash="768b55ccef08fe9709666223257a3c72"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Prashant_Headerlogo.xml" hash="68ac4d31b436f7b17e63a2da88281f42"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

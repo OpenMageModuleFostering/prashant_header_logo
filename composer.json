@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/prashant_header_logo",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)",
+    "homepage": "",
+    "description": "Admin can upload store logo from magento back-end easily.",
+    "authors": [
+    {
+        "name": "Prashant Kumar",
+        "email": "vicky.bgp@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

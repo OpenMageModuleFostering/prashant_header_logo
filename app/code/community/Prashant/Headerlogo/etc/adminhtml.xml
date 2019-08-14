@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+ <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                     <prashant_headerlogo>
+                                     <title>Prashant Headerlogo</title>
+                                    </prashant_headerlogo>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+</adminhtml>
